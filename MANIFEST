@@ -1,0 +1,9 @@
+ChangeLog
+lib/SSHKey/Fingerprint.pm
+LICENSE
+Makefile.PL
+MANIFEST
+META.yml
+README.md
+t/00-load.t
+t/10-test-strict.t
