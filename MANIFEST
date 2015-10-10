@@ -6,4 +6,8 @@ MANIFEST
 META.yml
 README.md
 t/00-load.t
+t/05-pod-syntax.t
 t/10-test-strict.t
+t/20-test-validity.t
+t/style-no-tabs.t
+t/style-no-trailing-whitespace.t
