@@ -1,3 +1,32 @@
+
+=head1 NAME
+
+SSHKey::Fingerprint - Fingerprint SSH public keys
+
+=head1 DESCRIPTION
+
+This module allows a fingerprint to be generated of an SSH public-key,
+via the invocation of the C<ssh-keygen> binary.
+
+=cut
+
+=head1 SYNOPSIS
+
+     use SSHKey::Fingerprint;
+
+     my $o = SSHKey::Fingerprint->new( key => "ssh-rsa A...." );
+
+     if ( $o->valid() )
+     {
+         print "Fingerprint is - '" . $o->fingerprint() . "'\n";
+     }
+
+=cut
+
+=head1 METHODS
+
+=cut
+
 use strict;
 use warnings;
 
@@ -119,3 +148,32 @@ sub fingerprint
 }
 
 1;
+
+
+
+
+
+=head1 AUTHOR
+
+Steve Kemp <steve@steve.org.uk>
+
+=cut
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (C) 2015 Steve Kemp <steve@steve.org.uk>.
+
+This code was developed for an online Git-based DNS hosting solution,
+which can be found at:
+
+=over 8
+
+=item *
+https://dns-api.com/
+
+=back
+
+This library is free software. You can modify and or distribute it under
+the same terms as Perl itself.
+
+=cut
