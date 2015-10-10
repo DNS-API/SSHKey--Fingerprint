@@ -23,9 +23,9 @@ my %WriteMakefileArgs = (
     META_MERGE       => {
               resources => {
                   license    => 'http://dev.perl.org/licenses/',
-                  homepage   => 'https://github.com/skx/SSHKey--Fingerprint/',
-                  bugtracker => 'https://github.com/skx/SSHKey--Fingerprint/issues',
-                  repository => 'https://github.com/skx/SSHKey--Fingerprint.git',
+                  homepage   => 'https://github.com/DNS-API/SSHKey--Fingerprint/',
+                  bugtracker => 'https://github.com/DNS-API/SSHKey--Fingerprint/issues',
+                  repository => 'https://github.com/DNS-API/SSHKey--Fingerprint.git',
               },
     },
 );
